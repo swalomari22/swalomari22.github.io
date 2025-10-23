@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9c4;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background:none ;  
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.profile-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid #ffd54f;
+    object-fit: cover;
+    display: block;
+    margin: 30px auto; 
+} 
+
+.skills, .tools, .future, .contact {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #ffd54f;
+	text-align: left; 
+}
+
+.skill {
+    
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+	text-align: left;  
+}
+
+table, th, td {
+    border: 1px solid #ffd54f;
+    padding: 10px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffd54f;
+	text-align: left; 
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+	text-align: left; 
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffd54f;
+    border-radius: 5px;
+    resize: none; 
+}
+
+button {
+    background: #ffd54f;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>contact me - Sura</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html"> contact me </a>
+    </nav>
+
+    <div class="container">
+        <h1> contact me </h1>
+        
+        <form id="contactForm">
+            <div>
+                <label> your name </label>
+                <input type="text" id="fullName" required>
+            </div>
+            
+            <div>
+                <label> Email </label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div>
+                <label> Choose country  </label>
+                <select id="country" required>
+                    <option value="">Jordan </option>
+                    <option value="Jordan">Jordan</option>
+					<option value="Syria">Syria</option>
+					<option value="Saudi Arabia">Saudi Arabia</option>
+					<option value="Egypt">Egypt</option>
+					<option value="UAE">UAE</option>
+					<option value="Other">Other</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>comments</label>
+                <textarea id="comments" required></textarea>
+            </div>
+            
+            <button type="submit">submit</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
